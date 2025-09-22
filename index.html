@@ -9,3 +9,120 @@
     <p>You can add more content here, like images or links.</p>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Engineering Data Table</title>
+    <style>
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin: 20px auto;
+            font-family: Arial, sans-serif;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+        caption {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <caption>Material Properties Comparison</caption>
+    <table>
+        <thead>
+            <tr>
+                <th>Material</th>
+                <th>Density (g/cm³)</th>
+                <th>Tensile Strength (MPa)</th>
+                <th>Young's Modulus (GPa)</th>
+                <th>Thermal Conductivity (W/m·K)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Steel (AISI 1045)</td>
+                <td>7.85</td>
+                <td>620</td>
+                <td>200</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td>Aluminum (6061-T6)</td>
+                <td>2.70</td>
+                <td>310</td>
+                <td>69</td>
+                <td>180</td>
+            </tr>
+            <tr>
+                <td>Titanium (Ti-6Al-4V)</td>
+                <td>4.43</td>
+                <td>950</td>
+                <td>114</td>
+                <td>6.7</td>
+            </tr>
+            <tr>
+                <td>Carbon Fiber Composite</td>
+                <td>1.60</td>
+                <td>1500</td>
+                <td>150</td>
+                <td>1.5</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="5">Note: Values are approximate and can vary based on specific alloy/composition and processing.</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <caption>Project Timeline - Phase 1</caption>
+    <table>
+        <thead>
+            <tr>
+                <th>Task</th>
+                <th>Start Date</th>
+                <th>End Date</th>
+                <th>Assigned To</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Requirements Gathering</td>
+                <td>2025-09-01</td>
+                <td>2025-09-15</td>
+                <td>Team A</td>
+                <td>Completed</td>
+            </tr>
+            <tr>
+                <td>Design & Prototyping</td>
+                <td>2025-09-16</td>
+                <td>2025-10-15</td>
+                <td>Team B</td>
+                <td>In Progress</td>
+            </tr>
+            <tr>
+                <td>Component Procurement</td>
+                <td>2025-09-20</td>
+                <td>2025-10-30</td>
+                <td>Team C</td>
+                <td>Pending</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
